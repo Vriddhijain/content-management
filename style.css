@@ -1,0 +1,32 @@
+#blogEditor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .editor {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .editor h2 {
+    margin-top: 0;
+  }
+  
+  #contentArea {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  

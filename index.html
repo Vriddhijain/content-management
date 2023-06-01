@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content Management Tool</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="blogEditor">
+    <div id="textEditor" class="editor">
+      <h2>Text Editor</h2>
+      <textarea id="textArea" placeholder="Type your text here..."></textarea>
+      <button onclick="addText()">Add Text</button>
+    </div>
+    <div id="imageEditor" class="editor">
+      <h2>Image Editor</h2>
+      <input type="text" id="imageUrlInput" placeholder="Enter image URL">
+      <button onclick="addImage()">Add Image</button>
+    </div>
+    <div id="videoEditor" class="editor">
+      <h2>Video Editor</h2>
+      <input type="text" id="videoUrlInput" placeholder="Enter video URL">
+      <button onclick="addVideo()">Add Video</button>
+    </div>
+    <div id="blogPreview">
+      <h2>Blog Preview</h2>
+      <div id="contentArea"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
